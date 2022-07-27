@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Machenike/IdeaProjects/testng626/src/test/java/package626">
+        <classes>
+            <class name="package626.GetCookie">
+                <methods>
+                    <include name="test_1"/>
+                </methods>
+            </class>
+            <class name="package626.test1Test">
+                <methods>
+                    <include name="fangfa"/>
+                    <include name="fangfa2"/>
+                </methods>
+            </class>
+            <class name="package626.test2Test">
+                <methods>
+                    <include name="fangfa"/>
+                    <include name="fangfa2"/>
+                </methods>
+            </class>
+            <class name="package626.test3Test">
+                <methods>
+                    <include name="fangfa"/>
+                    <include name="fangfa2"/>
+                </methods>
+            </class>
+            <class name="package626.test4Test">
+                <methods>
+                    <include name="fangfa2"/>
+                </methods>
+            </class>
+            <class name="package626.test5Test">
+                <methods>
+                    <include name="qingqiu"/>
+                </methods>
+            </class>
+            <class name="package626.test6Test">
+                <methods>
+                    <include name="qingqiu"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

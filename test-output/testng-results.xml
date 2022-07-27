@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="12" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="1357" started-at="2022-07-27T07:04:44Z" finished-at="2022-07-27T07:04:45Z">
+    <groups>
+    </groups>
+    <test name="C:/Users/Machenike/IdeaProjects/testng626/src/test/java/package626" duration-ms="1357" started-at="2022-07-27T07:04:44Z" finished-at="2022-07-27T07:04:45Z">
+      <class name="package626.test3Test">
+        <test-method status="PASS" signature="fangfa()[pri:0, instance:package626.test3Test@48140564]" name="fangfa" duration-ms="0" started-at="2022-07-27T07:04:44Z" finished-at="2022-07-27T07:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fangfa -->
+        <test-method status="PASS" signature="fangfa2()[pri:0, instance:package626.test3Test@48140564]" name="fangfa2" duration-ms="0" started-at="2022-07-27T07:04:44Z" finished-at="2022-07-27T07:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fangfa2 -->
+      </class> <!-- package626.test3Test -->
+      <class name="package626.test2Test">
+        <test-method status="PASS" signature="fangfa()[pri:0, instance:package626.test2Test@1d251891]" name="fangfa" duration-ms="0" started-at="2022-07-27T07:04:44Z" depends-on-methods="package626.test2Test.fangfa2" finished-at="2022-07-27T07:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fangfa -->
+        <test-method status="PASS" signature="fangfa2()[pri:0, instance:package626.test2Test@1d251891]" name="fangfa2" duration-ms="0" started-at="2022-07-27T07:04:44Z" finished-at="2022-07-27T07:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fangfa2 -->
+      </class> <!-- package626.test2Test -->
+      <class name="package626.GetCookie">
+        <test-method status="PASS" signature="test_1()[pri:0, instance:package626.GetCookie@4c203ea1]" name="test_1" duration-ms="0" started-at="2022-07-27T07:04:44Z" finished-at="2022-07-27T07:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1 -->
+      </class> <!-- package626.GetCookie -->
+      <class name="package626.test1Test">
+        <test-method status="PASS" signature="fangfa2()[pri:0, instance:package626.test1Test@27f674d]" name="fangfa2" duration-ms="0" started-at="2022-07-27T07:04:44Z" finished-at="2022-07-27T07:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fangfa2 -->
+        <test-method status="PASS" signature="fangfa()[pri:0, instance:package626.test1Test@27f674d]" name="fangfa" duration-ms="0" started-at="2022-07-27T07:04:44Z" depends-on-methods="package626.test1Test.fangfa2" finished-at="2022-07-27T07:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fangfa -->
+      </class> <!-- package626.test1Test -->
+      <class name="package626.test4Test">
+        <test-method status="PASS" signature="fangfa2(java.lang.String, java.lang.String)[pri:0, instance:package626.test4Test@58ceff1]" name="fangfa2" duration-ms="0" started-at="2022-07-27T07:04:44Z" data-provider="datas" finished-at="2022-07-27T07:04:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[李]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[四]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fangfa2 -->
+        <test-method status="PASS" signature="fangfa2(java.lang.String, java.lang.String)[pri:0, instance:package626.test4Test@58ceff1]" name="fangfa2" duration-ms="0" started-at="2022-07-27T07:04:44Z" data-provider="datas" finished-at="2022-07-27T07:04:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[张]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[三]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fangfa2 -->
+      </class> <!-- package626.test4Test -->
+      <class name="package626.test6Test">
+        <test-method status="PASS" signature="qingqiu(java.lang.String)[pri:0, instance:package626.test6Test@49e4cb85]" name="qingqiu" duration-ms="0" started-at="2022-07-27T07:04:45Z" data-provider="datas" finished-at="2022-07-27T07:04:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[entityId=xkOKRxt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qingqiu -->
+      </class> <!-- package626.test6Test -->
+      <class name="package626.test5Test">
+        <test-method status="PASS" signature="qingqiu()[pri:0, instance:package626.test5Test@7c30a502]" name="qingqiu" duration-ms="1326" started-at="2022-07-27T07:04:44Z" finished-at="2022-07-27T07:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qingqiu -->
+      </class> <!-- package626.test5Test -->
+    </test> <!-- C:/Users/Machenike/IdeaProjects/testng626/src/test/java/package626 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
