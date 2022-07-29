@@ -10,6 +10,8 @@ public class test1Test {
      System.out.println("增加一行代码");
      System.out.println("增加一行代码");
      System.out.println("增加一行代码");
+     System.out.println("增加一行代码");
+     System.out.println("增加一行代码");
  }
     @Test
     public void fangfa2(){
