@@ -6,7 +6,9 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-
+    <groupId>org.example</groupId>
+    <artifactId>pomtest</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
     <build>
         <plugins>
@@ -22,8 +24,9 @@
 
     </build>
 
-
     <dependencies>
+
+
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -50,14 +53,19 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-framework-bom</artifactId>
+            <version>4.3.13.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.integration</groupId>
+            <artifactId>spring-integration-bom</artifactId>
+            <version>4.3.12.RELEASE</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <version>1.3.5.RELEASE</version>
         </dependency>
-
     </dependencies>
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.9.RELEASE</version>
-    </parent>
 </project>

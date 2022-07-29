@@ -1,9 +1,6 @@
 package package626;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
-
-import static org.testng.Assert.*;
 
 public class test1Test {
  @Test(dependsOnMethods = "fangfa2",alwaysRun = true)
