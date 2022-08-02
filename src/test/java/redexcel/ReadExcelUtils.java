@@ -54,7 +54,12 @@ public class ReadExcelUtils {
 
     @Test
     public static void ReadExcel() throws IOException {
-
+        System.out.println("增加一行代码");
+        System.out.println("增加一行代码");
+        System.out.println("增加一行代码");
+        System.out.println("增加一行代码");
+        System.out.println("增加一行代码");
+        System.out.println("增加一行代码");
         System.out.println();
         try {
             XSSFWorkbook xssfWorkbook = new XSSFWorkbook(new FileInputStream("D:\\shuju.xlsx"));
@@ -78,9 +83,9 @@ public class ReadExcelUtils {
 
                 System.out.println("性别:\"" + sheet.getRow(row).getCell(1).toString() + "\",");
                 System.out.println("地址:\"" + sheet.getRow(row).getCell(2).toString() + "\",");
-                System.out.println("手机:\""+sheet.getRow(row).getCell(3) + "\",");
-                String tmp= (sheet.getRow(row).getCell(4)).toString();
-                int age=(int)Double.parseDouble(String.valueOf(sheet.getRow(row).getCell(4)));
+                System.out.println("手机:\"" + sheet.getRow(row).getCell(3) + "\",");
+                String tmp = (sheet.getRow(row).getCell(4)).toString();
+                int age = (int) Double.parseDouble(String.valueOf(sheet.getRow(row).getCell(4)));
                 System.out.println("年龄:\"" + age + "\",");
                 fengzhuang fz = new fengzhuang(null, null, null, null, 0);
                 fz.setName(String.valueOf(sheet.getRow(row).getCell(0)));
