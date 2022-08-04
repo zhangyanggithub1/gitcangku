@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/Machenike/IdeaProjects/testng626/src/test/java/package626">
+    <test verbose="2" preserve-order="true" name="D:/Tgit version/gitcangku/src/test/java">
         <classes>
+            <class name="okhttpUtils.HttpClientUtils">
+                <methods>
+                    <include name="DoGET"/>
+                    <include name="DoGETParam"/>
+                    <include name="DoPOSTParam"/>
+                    <include name="TEST"/>
+                </methods>
+            </class>
+            <class name="okhttpUtils.OkhttpUtils">
+                <methods>
+                    <include name="getmethod"/>
+                </methods>
+            </class>
             <class name="package626.GetCookie">
                 <methods>
                     <include name="test_1"/>
@@ -39,6 +52,22 @@
             <class name="package626.test6Test">
                 <methods>
                     <include name="qingqiu"/>
+                </methods>
+            </class>
+            <class name="package626.test7TEST">
+                <methods>
+                    <include name="fangfa"/>
+                    <include name="fangfa2"/>
+                </methods>
+            </class>
+            <class name="redexcel.ReadExcelUtils">
+                <methods>
+                    <include name="ReadExcel"/>
+                </methods>
+            </class>
+            <class name="redexcel.TypeTest">
+                <methods>
+                    <include name="main"/>
                 </methods>
             </class>
         </classes>

@@ -8,20 +8,19 @@ import org.testng.annotations.Test;
 public class test5Test {
     @Test
     public static void qingqiu() {
-        String url = "https://www.baidu.com";
-        String xx = "";
+        String url = "https://passport.bilibili.com/x/passport-login/web/key";
+        String xx = "_=1659430957458";
         //创建okhttpClinet
         OkhttpUtils ok = new OkhttpUtils();
         Response body = ok.getmethod(url, xx);
-        System.out.println(body.code());
-        System.out.println(body.headers());
-        System.out.println(body.header("header"));
-        System.out.println(body.body());
-        System.out.println(body.message());
-        System.out.println(body.toString());
-        System.out.println(body.request());
-        System.out.println(body.hashCode());
+        System.out.println("code"+body.code());
+        System.out.println("headers"+body.headers());
+        System.out.println("body"+body.body());
+        System.out.println("message"+body.message());
+        System.out.println("toString"+body.toString());
+        System.out.println("request"+body.request());
         Assert.assertEquals(body.code(), 200);
+
 
 //        if(){
 //            System.out.println("请求成功");
